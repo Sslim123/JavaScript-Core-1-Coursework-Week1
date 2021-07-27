@@ -1,6 +1,6 @@
 // Add comments to explain what this function does. You're meant to use Google!
 function getRandomNumber() {
-  return Math.random() * 10;
+  return Math.random() * 10;  //
 }
 
 // Add comments to explain what this function does. You're meant to use Google!
