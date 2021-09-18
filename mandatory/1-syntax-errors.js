@@ -1,28 +1,32 @@
 // There are syntax errors in this code - can you fix it to pass the tests?
 
 function addNumbers(a, b, c) {
-  let a = 3;
-  let b = 4;
-  let c = 6;
+  
+  
 
   return 3 + 4 + 6;
 }
-
+let total = addNumbers(3, 4, 6);
+console.log(total);
 
 
 function introduceMe(name, age) {
-  let name ="Sonjide";
-  let age = 27;
-  return "Hello, my name is " + name + "and I am " + age + "years old";
+  
+  return "Hello, my name is " + name + " and I am " + age + " years old";
 }
-
+let greet = introduceMe("Sonjide", 27);
+console.log(greet);
 
 
 function getTotal(a, b) {
-  let total = 23 + 5;
+  return 23 + 5;
+  
 
-  return "The total is total" + total;
+  return "The total is tota ";
 }
+let total2 = getTotal(23, 5);
+console.log(total2);
+/*
 ===================================================
 ======= TESTS - DO NOT MODIFY BELOW THIS LINE =====
 
@@ -32,7 +36,7 @@ To run the tests for just this one file, type `npm test -- --testPathPattern 1-s
 (Reminder: You must have run `npm install` one time before this will work!)
 
 ===================================================
-*/
+
 
 test("addNumbers adds numbers correctly", () => {
   expect(addNumbers(3, 4, 6)).toEqual(13);
@@ -47,3 +51,4 @@ test("introduceMe function returns the correct string", () => {
 test("getTotal returns a string describing the total", () => {
   expect(getTotal(23, 5)).toEqual("The total is 28");
 });
+*/

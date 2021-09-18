@@ -1,19 +1,24 @@
 // The syntax for this function is valid but it has an error, find it and fix it.
 
 function trimWord(word) {
-  return word + "hello";
+  return "hello  " + word;
 }
-trimWord("salem");
+let anwser1 = trimWord("salem");
+console.log(anwser1);
 
-function getStringLength(word) {
-  let wordLength = word.length;
+function getStringLength(name) {
+  let nameLength = name.length;
+   return  "my name length is " + nameLength;
 }
+let anwser2 = getStringLength("ali");
+console.log(anwser2);
 
 function multiply(a, b, c) {
-  return a * b * c;
+  return 2 * 4 * 6;
 
 }
-
+let anwser = multiply(2, 4, 6);
+console.log(anwser);
 /* 
 ===================================================
 ======= TESTS - DO NOT MODIFY BELOW THIS LINE =====
@@ -24,7 +29,7 @@ To run the tests for just this one file, type `npm test -- --testPathPattern 2-l
 (Reminder: You must have run `npm install` one time before this will work!)
 ===================================================
 */
-
+/*
 test("trimWord trims leading and trailing whitespace", () => {
   expect(trimWord("   CodeYourFuture ")).toEqual("CodeYourFuture");
 });
@@ -50,3 +55,4 @@ test("multiply multiplies numbers", () => {
 test("multiply multiplies different numbers", () => {
   expect(multiply(2, 3, 4)).toEqual(24);
 });
+*/

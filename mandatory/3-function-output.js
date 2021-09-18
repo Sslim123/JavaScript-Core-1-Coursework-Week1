@@ -1,19 +1,26 @@
 // Add comments to explain what this function does. You're meant to use Google!
 function getRandomNumber() {
-  return Math.random() * 10;  //
+  return Math.random() * 10; /*he Math.random() function returns a floating-point, pseudo-random 
+                               number in the range 0 to less than 1 (inclusive of 0, but not 1)
+                                with approximately uniform distribution over that rang*/
 }
 
 // Add comments to explain what this function does. You're meant to use Google!
-function combine2Words(word1, word2) {
+function combine2Words(word1, word2) {//The concat function concatenates two or more strings and returns the resulting string.
+
   return word1.concat(word2);
 }
+
 
 function concatenate(firstWord, secondWord, thirdWord) {
   // Write the body of this function to concatenate three words together.
   // Look at the test case below to understand what this function is expected to return.
+  return firstWord + secondWord + thirdWord;
 }
-
+let anwser = concatenate("I ", "am ", 13);
+console.log(anwser);
 /* 
+;
 ===================================================
 ======= TESTS - DO NOT MODIFY BELOW THIS LINE =====
 
