@@ -1,6 +1,7 @@
 // The syntax for this function is valid but it has an error, find it and fix it.
 
 function trimWord(word) {
+<<<<<<< HEAD
   return "hello  " + word;
 }
 let anwser1 = trimWord("salem");
@@ -15,6 +16,27 @@ console.log(anwser2);
 
 function multiply(a, b, c) {
   return 2 * 4 * 6;
+=======
+  return "hello " + word;
+}
+let answer = trimWord("salem");
+console.log(answer);
+
+function getStringLength(name) {
+  let nameLength = name.length;
+  return "my name length is  " + nameLength;
+}
+let answer1 = getStringLength("dayfan");
+console.log(answer1);
+
+function multiply(a, b, c) {
+
+ return  2 * 4 * 6;
+  
+}
+let answer2 = multiply(2, 4, 6);
+console.log(answer2);
+>>>>>>> 5b0a0d2f04633b051671d27a3cdeeaf312248485
 
 }
 let anwser = multiply(2, 4, 6);
