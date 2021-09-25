@@ -1,11 +1,10 @@
-jg
 /*
   SALES TAX
   =========
   A business requires a program that calculates how much the price of a product is including sales tax
   Sales tax is 20% of the price of the product.
 */
-
+let sales = 20;
 function calculateSalesTax() {}
 
 /*

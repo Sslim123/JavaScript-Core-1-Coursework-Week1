@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*var mentor1 = "Daniel";
 var mentor2 = "Irina";
 var mentor3 = "Mimi";
@@ -11,7 +11,6 @@ function createCreeting(name) {
   }
   let mentors = createCreeting("Daniel " + " Irina " +  " Mimi " + "  Rob " + " Yohannes");
   console.log(mentors);
-=======
 function daniel(name) {
  return  "Hello Daniel";
 }
@@ -42,4 +41,3 @@ function irina(name) {
    let Greetag = mimi();
    console.log(Greetag);
    
->>>>>>> 5b0a0d2f04633b051671d27a3cdeeaf312248485
