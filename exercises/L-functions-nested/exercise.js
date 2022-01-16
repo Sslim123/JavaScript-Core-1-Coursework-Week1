@@ -9,8 +9,8 @@ function createCreeting(name) {
       return "hello " + name;
     
   }
-  let mentors = createCreeting("Daniel " + " Irina " +  " Mimi " + "  Rob " + " Yohannes");
-  console.log(mentors);
+  //let mentors = createCreeting("Daniel " + " Irina " +  " Mimi " + "  Rob " + " Yohannes");
+  //console.log(mentors);
 function daniel(name) {
  return  "Hello Daniel";
 }

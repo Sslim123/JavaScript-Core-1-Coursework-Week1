@@ -19,8 +19,6 @@ console.log(greet);
 function getTotal(a, b) {
   return 23 + 5;
   
-
-  return "The total is tota ";
 }
 let total2 = getTotal(23, 5);
 console.log(total2);

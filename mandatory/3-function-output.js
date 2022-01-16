@@ -10,15 +10,16 @@ function combine2Words(word1, word2) {//The concat function concatenates two or 
 
   return word1.concat(word2);
 }
-
-
+ let firstWord = "code "  + "your " + "futuer";
+let secondWord = " i " + " like " +" pizza ";
+let thirdWord = "I " + " am  " + 13;
 function concatenate(firstWord, secondWord, thirdWord) {
   // Write the body of this function to concatenate three words together.
   // Look at the test case below to understand what this function is expected to return.
   
-  return firstWord.concat();
+  return firstWord.concat(secondWord, thirdWord);
 }
-let anwser = concatenate("code "  + "your " + "futuer");
+let anwser = concatenate(firstWord + secondWord, thirdWord);
 console.log(anwser);
 /* 
 ;

@@ -3,4 +3,4 @@ var roughge = Math.round(numberOfStudents);
 
 var numberOfMentors = 8.485909;
 var roughAge = Math.round(numberOfMentors);
-console.log(roughAge, "  ", roughge);
+console.log(roughAge + "  " + roughge);

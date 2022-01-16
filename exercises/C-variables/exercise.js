@@ -2,4 +2,4 @@
 
 let greeting = "hello world";
 
-console.log(greeting,    greeting, greeting);
+console.log(greeting +   greeting +  greeting);

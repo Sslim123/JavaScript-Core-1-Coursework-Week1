@@ -1,8 +1,8 @@
 // Declare your function here
-function createLongGreeting() {
-    let name = "Salem";
-    let Age = 30;
-    return "hello, my name is " + name + " and my Age is " + Age + " years old";
+function createLongGreeting(salem, ge) {
+    //let name = "Salem";
+    //let Age = 30;
+    return "hello, my name is " + salem + " and my Age is " + ge + " years old";
 
 }
 
